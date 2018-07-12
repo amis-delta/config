@@ -32,6 +32,9 @@
   ],
   "tokens": [
     { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "decimals": 18 },
+    { "addr": "0x59adcf176ed2f6788a41b8ea4c4904518e62b6a4", "name": "SAI", "decimals": 18 },
+    { "addr": "0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359", "name": "DAI", "decimals": 18 },
+    { "addr": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2", "name": "WETH", "decimals": 18 },
     { "addr": "0x949bed886c739f1a3273629b3320db0c5024c719", "name": "AMIS", "decimals": 9 },
     { "addr": "0xd8912c10681d8b21fd3742244f44658dba12264e", "name": "PLU", "decimals": 18 },
     { "addr": "0xaf30d2a7e90d7dc361c8c4585e9bb7d2f6f15bc7", "name": "1ST", "decimals": 18 },
