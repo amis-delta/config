@@ -21,17 +21,26 @@
   "gasTrade": 250000,
   "gasOrder": 250000,
   "minOrderSize": 0.001,
-  "socketServer": ["https://socket01.etherdelta.com","https://socket02.etherdelta.com","https://socket03.etherdelta.com","https://socket04.etherdelta.com","https://socket05.etherdelta.com","https://socket06.etherdelta.com"],
+  "socketServer": [
+    "https://socket01.etherdelta.com",
+    "https://socket02.etherdelta.com",
+    "https://socket03.etherdelta.com",
+    "https://socket04.etherdelta.com",
+    "https://socket05.etherdelta.com",
+    "https://socket06.etherdelta.com"
+  ],
   "userCookie": "EtherDelta",
   "eventsCacheCookie": "EtherDelta_eventsCache",
   "ordersCacheCookie": "EtherDelta_ordersCache",
   "etherscanAPIKey": "GCGR1C9I17TYIRNYUDDEIJH1K5BRPH4UDE",
   "ledgerPath": "m/44'/60'/0'/0",
   "bases": [
-    { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "decimals": 18 }
+    { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "decimals": 18 },
+    { "addr": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2", "name": "WETH", "decimals": 18 },
   ],
   "tokens": [
     { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "decimals": 18 },
+    { "addr": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2", "name": "WETH", "decimals": 18 },
     { "addr": "0x59adcf176ed2f6788a41b8ea4c4904518e62b6a4", "name": "SAI", "decimals": 18 },
     { "addr": "0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359", "name": "DAI", "decimals": 18 },
     { "addr": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2", "name": "WETH", "decimals": 18 },
